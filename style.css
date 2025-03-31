@@ -36,3 +36,62 @@ h3 {
   gap: 1em;
   margin: 3em auto 1.5em auto;
 }
+
+input[type="number"] {
+  width: 100%;
+  padding: 1em;
+  font-size: 1.2em;
+  text-align: center;
+  border: 2px solid #adaeae;
+  border-radius: 0.3em;
+  outline: none;
+  appearance: text-field;
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"]:focus {
+  border-color: #3c6fff;
+}
+
+button {
+  font-size: 1em;
+  background-color: #3c6fff;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 0.5em;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#restart {
+  margin: 0 auto 0 auto;
+  padding: 0.8em 1em;
+  display: none;
+}
+
+.result {
+  margin-top: 1em;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 400;
+  color: #565b70;
+  word-break: break-all;
+}
+
+.error,
+.success {
+  padding: 0.5em 0;
+  border-radius: 0.3em;
+  margin-bottom: 1em;
+  animation: pop 0.4s forwards;
+  transform: scale(0);
+}
