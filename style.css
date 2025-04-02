@@ -95,3 +95,22 @@ p {
   animation: pop 0.4s forwards;
   transform: scale(0);
 }
+
+.error {
+  background-color: #ffcbcb;
+  color: #ff3e3e;
+}
+
+.success {
+  background-color: #b9ffd5;
+  color: #05c451;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
